@@ -2,7 +2,9 @@ body{
     margin: 0px auto;
    align-items: baseline;
    background-image: url("../image/2.jpg");
-   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color:lightblue;
     
 }
 .boder {
