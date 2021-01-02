@@ -26,7 +26,7 @@ const startBtn = document.querySelector('.start');
 const stopBtn = document.querySelector('.stop');
 const resetBtn = document.querySelector('.reset');
 
-startBtn.addEventListener('click', () => {
+startBtn.addEventListener('click',() => {
   stopWatch = setInterval(displayCount, 1000);
   startBtn.disabled = true;
 });
@@ -47,3 +47,4 @@ resetBtn.addEventListener('click', () => {
 
 
 displayCount();
+
